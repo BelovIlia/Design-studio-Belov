@@ -47,7 +47,6 @@ let currentIndex = 0;
 
 function changeImg(index) {
     currentIndex = index;
-    console.log(paths[index])
     img.src = paths[index];
     // dots
     dots.forEach(dot => dot.src = "./image-folder/grey-dot.svg");
@@ -75,8 +74,6 @@ dots.forEach((dot, i) => dot.addEventListener('click', () => {
 function changeImgNext() { 
     const index = currentIndex;
 
-    console.log("next", index)
-
     if (index === paths.length - 1) {
         changeImg(0);
     } else {
@@ -86,8 +83,6 @@ function changeImgNext() {
 
 function changeImgPrev() {
     const index = currentIndex;
-
-    console.log("prev", index)
 
     if (index === 0) {
         changeImg(paths.length - 1);
