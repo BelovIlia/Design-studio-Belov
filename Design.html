@@ -60,36 +60,45 @@
             </section>
             <section class="section__wrapper2">
                 <div class="container__elements">
-                    <ul class="container__list">
-                        <div>
-                            <li class="list__item"><a class="item__link item__color" href="">Rostov-on-Don, Admiral</a></li>
-                            <div class="stripe"></div>
-                        </div>
-                        <li class="list__item"><a class="item__link" href="">Sochi Thieves</a></li>
-                        <li class="list__item"><a class="item__link" href="">Rostov-on-Don Patriotic</a></li>
+                    <ul class="container__list"> 
+                        <li class="list__item"><button class="item__link item__color">Rostov-on-Don, Admiral</button></li>
+                        <li class="list__item"><button class="item__link">Sochi Thieves</button></li>
+                        <li class="list__item"><button class="item__link">Rostov-on-Don Patriotic</button></li>
                     </ul>
                     <div class="completet-projects-wrap">
                         <div class="completet-projects-des">
                             <h2 class="head-completet-projects">Completed projects</h2>
                             <p class="text-completet-projects">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction market we have made happy more than 1000 families</p>
-                            <div class="living-room-mobile"><img src="image-folder/living room mobile.png" alt="Гостинная"></div>
+                            <div class="living-room-mobile"><img class="img-carousel" src="image-folder/living room mobile.png" alt="Гостинная"></div>
                             <img class="arrow-left" src="image-folder/arrow-left.svg" alt="Стрелочка влево">
                             <img class="arrow-right" src="image-folder/arrow-right.svg" alt="Стрелочка вправо">
                             <div class="specification">
                                 <div class="information">
-                                    <h3 class="head__card">City:</h3>
-                                    <span class="text-information">Rostov-on-Don LCD admiral</span>
-                                    <h3 class="head__card">Repair time:</h3>
-                                    <span class="text-information">3.5 months</span>
+                                    <div>
+                                        <h3 class="head__card">City:</h3>
+                                        <span id="city" class="text-information">Rostov-on-Don LCD admiral</span>
+                                    </div>
+                                    <div>
+                                        <h3 class="head__card">apartment area:</h3>
+                                        <span id="repairTime" class="text-information">81 m2</span>   
+                                    </div>
                                 </div>
-                                <div>
-                                    <h3 class="head__card">apartment area:</h3>
-                                    <span class="text-information">81 m2</span>
-                                    <h3 class="head__card head__card-wrap">Repair Cost:</h3>
-                                    <span class="text-information">Upon request</span>
+                                <div class="information">
+                                    <div>                                  
+                                        <h3 class="head__card">Repair time:</h3>
+                                        <span id="area" class="text-information">3.5 months</span>
+                                    </div>
+                                    <div>
+                                        <h3 class="head__card head__card-wrap">Repair Cost:</h3>
+                                        <span id="repairCost" class="text-information">Upon request</span>
+                                    </div>
                                 </div>
                             </div>
-                            <img class="img__slider" src="image-folder/slider.svg" alt="Слайдер">
+                            <img class="arrow-prev" src="image-folder/arrow-left (2).svg" alt="Стрелочка влево">
+                            <img class="dot-grey-left" src="image-folder/white-dot.svg" alt="Точка">
+                            <img class="dot-grey-average" src="image-folder/grey-dot.svg" alt="Точка">
+                            <img class="dot-grey-right" src="image-folder/grey-dot.svg" alt="Точка">
+                            <img class="arrow-next" src="image-folder/arrow-right (2).svg" alt="Стрелочка вправо">
                         </div>
                         <img class="img__room" src="image-folder/room.png" alt="Комната">
                     </div>
@@ -424,5 +433,7 @@
             </div>
         </footer>
     </div>
+
+    <script src="./index.js"></script>
 </body>
 </html>

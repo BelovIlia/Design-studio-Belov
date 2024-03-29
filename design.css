@@ -228,6 +228,9 @@
 }
 
 .item__link{
+    background: none;
+    border: none;
+    cursor: pointer;
     color: rgba(255, 255, 255, 0.30);
     font-family: Yeseva One;
     font-size: 14px;
@@ -240,8 +243,11 @@
 
 .item__color{
     color: #E3B873;
-}
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E3B873;
 
+}
 .completet-projects-wrap{
     display: inline-flex;
     max-width: 1205px;
@@ -294,12 +300,21 @@
 
 .specification{
     max-width: 403px;
-    height: 162px;
     display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+    flex-direction: column;
+   
 	position: relative;
-	padding-bottom: 62px;
+	padding-bottom: 110px;
+}
+
+.information {
+    display: flex; 
+    gap: 30px;
+    
+}
+
+.information > div {
+    min-width: 156px;
 }
 
 .living-room-mobil{
@@ -326,8 +341,16 @@
     line-height: 163.68%;
 }
 
-.img__slider{
-    padding-top: 50px;
+.dot-grey-left{
+    padding-left: 29.5px;
+}
+
+.dot-grey-average{
+    margin: 0px 17.5px;
+}
+
+.dot-grey-right{
+    padding-right: 29.5px;
 }
 
 .img__room{
