@@ -343,14 +343,17 @@
 
 .dot-grey-left{
     padding-left: 29.5px;
+    cursor: pointer;
 }
 
 .dot-grey-average{
     margin: 0px 17.5px;
+    cursor: pointer;
 }
 
 .dot-grey-right{
     padding-right: 29.5px;
+    cursor: pointer;
 }
 
 .img__room{
@@ -358,6 +361,12 @@
     padding-left: 50px;
 }
 
+.arrow-next{
+    cursor: pointer;
+}
+.arrow-prev{
+    cursor: pointer;
+}
 /* section3 */
 .section__wrapper3{
     max-width: 1440px;
